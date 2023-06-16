@@ -50,7 +50,7 @@ class MaterialTestWorkbench ( Workbench ):
         self._loadMaterialModule()
         
         self.appendToolbar(QT_TRANSLATE_NOOP('MaterialTest', 'MaterialTest'),
-                        ['MaterialTest_MaterialEditor', 'MaterialTest_NewMaterialEditor', "Materials_Edit", 'Separator', 'MaterialTest_ValuesEditor', "Materials_ValueEdit"])
+                        ['MaterialTest_MaterialEditor', 'MaterialTest_NewMaterialEditor', "Materials_Edit", 'Separator', 'Materials_ModelSelect', 'Separator', 'MaterialTest_ValuesEditor', "Materials_ValueEdit"])
 
     def GetClassName(self):
         return "Gui::PythonWorkbench"
